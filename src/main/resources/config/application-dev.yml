@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://127.0.0.1:3306/test
+    username: root
+    password: root
+  thymeleaf:
+    cache: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  devtools:
+    restart:
+      enabled: true
+
+logging:
+  level:
+    com.demo.ssjo.repository: debug
+
+cfg:
+  uploadPath: E:\IdeaProjects\mingbang_v1.0\src\main\resources\static\upload
+#windows E:\IdeaProjects\...  linux /home/usr/...

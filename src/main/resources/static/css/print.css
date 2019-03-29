@@ -1,0 +1,11 @@
+@charset "utf-8";
+@media print
+{
+    .btn{display: none}
+    .transportation{display: block;overflow: hidden;margin: 0 auto;padding:0px;}
+    .transportation-title{display: none;height: 0px;}
+    .title{display: none}
+    .transportation-content{margin-top: 0px;font-size: 10px;}
+    transportation-table table tr td{font-size: 10px;}
+    .nbsp1{width: 2%}
+}
